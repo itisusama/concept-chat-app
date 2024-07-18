@@ -1,0 +1,17 @@
+.user-btn{
+    border: none;
+    background-color: transparent;
+}
+
+.message-area{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+@media(max-width: 991px){
+    .user-small-screen{
+        margin-top: -50px;
+    }
+}
