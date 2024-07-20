@@ -13,10 +13,11 @@ chatUser.forEach(function(obj){
 })
 
 users.innerHTML = clutter;
+let secondBtn = document.querySelector('#send-btn');
 
-document.getElementById('send-btn').addEventListener('click', function() {
+secondBtn.addEventListener('click', function() {
     // Get the value from the textarea
-    let message = document.getElementById('exampleFormControlTextarea1').value;
+    let message = document.querySelector('#exampleFormControlTextarea1').value;
 
     // Set the innerHTML of the message-area to the value from the textarea
     document.querySelector('.message-area').innerHTML += message + "<br/>" ;
